@@ -5,8 +5,8 @@ let win
 
 function createWindow () {
   let mainWindowState = windowStateKeeper({
-    defaultWidth: 800,
-    defaultHeight: 600
+    defaultWidth: 1000,
+    defaultHeight: 800
   });
 
   win = new BrowserWindow({
